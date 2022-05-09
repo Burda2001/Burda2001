@@ -1,0 +1,5 @@
+- 👋 Olá, eu me chamo Mateus Burda
+- 👀 Tenho interesse em entrar na carreira de TI
+- 🌱 Atualmente estou estudando JAVA.
+- 💞️ Quero trabalhar como programador
+- 📫 Entre em contato comigo pelo email: mateushenriqueburda@gmail.com
