@@ -1,5 +1,5 @@
 - 👋 Olá, eu me chamo Mateus Burda
 - 👀 Tenho interesse em entrar na carreira de TI
 - 🌱 Atualmente estou estudando JAVA.
-- 💞️ Esse repositório vai servir para documentar minha evolução nos projetos.
+- 💞️ Esse repositório vai servir para documentar minha evolução nos projetos: https://github.com/Mateus-Burda/Mateus-Burda
 - 📫 Entre em contato comigo pelo email: mateushenriqueburda@gmail.com
