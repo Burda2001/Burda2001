@@ -18,7 +18,7 @@ public class metodosJava {
     }
     // Função main, utilização dos métodos.
     public static void main(String[] args){
-        soma(2,3);
+        soma(2,4);
         subtracao(2,3);
         divisao(2,3);
         multiplicacao(2,3);
