@@ -1,5 +1,6 @@
+import java.util.Scanner;
 public class metodosJava {
-    //Criação dos metodos
+        //Criação dos metodos
     public static void soma(int a,int b){
         int resultado = a + b;
         System.out.println("A SOMA DE A+B = "+ resultado);
@@ -18,10 +19,13 @@ public class metodosJava {
     }
     // Função main, utilização dos métodos.
     public static void main(String[] args){
-        soma(2,4);
-        subtracao(2,3);
-        divisao(2,3);
-        multiplicacao(2,3);
+    Scanner scanner = new Scanner(Sytem.in);
+        System.out.println("Insira o primeiro número: ");
+        a = scanner.nextInt();
+        System.out.println("Insira o segundo número: ");
+        b = scanner.nextInt();
+        System.out.println(a+b);
+
     }
 
 }
