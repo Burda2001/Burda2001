@@ -1,4 +1,3 @@
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class programaPrincipal {
@@ -10,10 +9,13 @@ public class programaPrincipal {
         System.out.println("2. Marcar tarefa como concluida");
         System.out.println("3. Excluir tarefa");
         int opcao = input.nextInt();
-        String[] nomeTarefa;
+        String nomeTarefa;
+        int qtdTarefas=0;
         switch (opcao){
             case 1:
                 System.out.println("Qual o nome da tarefa?");
+                nomeTarefa = input.nextLine();
+                qtdTarefas++;
                 break;
             case 2:
                 System.out.println("Qual tarefa concluir?");
@@ -22,6 +24,8 @@ public class programaPrincipal {
                 System.out.println("Qual tarefa excluir?");
                 break;
                         }
+        System.out.println("Lista de tarefas:");
+        System.out.println(qtdTarefas);
 
     }
 }
