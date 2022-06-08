@@ -1,8 +1,12 @@
 import javax.swing.*;
+import javax.swing.border.Border;
 import java.awt.*;
 
 public class Jframe {
     public static void main(String[]args){
+
+        //Criando uma borda
+        Border borda = BorderFactory.createLineBorder(Color.YELLOW,3);  //cria uma borda, pode deefinir a cor e o a grossura;
 
         //CONFIGURAÇÃO DO FRAME;
         JFrame frame = new JFrame();     //cria um frame
@@ -22,7 +26,8 @@ public class Jframe {
         label.setVerticalTextPosition(JLabel.TOP);  //Define a orintação vertical de acordo com a imageem do Icone;
         label.setForeground(Color.ORANGE); //Define a cor de fonte do label, também é possivel escolher uma cor pelo código RGB ou HEX;
         label.setFont(new Font("Arial",Font.BOLD,28)); //Define a fonte, a estilização da fonte, e o tamanho da fonte do label;
-        label.setBackground(Color.BLACK);
-        label.setOpaque(true); //Define se o label é opaco ou não;
+        label.setBackground(Color.BLACK); //Define a cor de fundo do label;
+        label.setOpaque(true); //Define se o label é opaco ou não, necessário para que a cor do background apareça;
+        label.setBorder(borda); //Define qual a borda do label
     }
 }
