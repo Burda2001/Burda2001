@@ -22,12 +22,13 @@ public class Jframe {
         frame.add(label); //Adiciona o label criado acima no frame;
         label.setText("Quer casar comigo?");   //Define o texto do label;
         label.setIcon(image); //define o icone do label,
-        label.setHorizontalTextPosition(JLabel.CENTER); // Define a orientação horizontal do label de acordo com a imageem do Icone;
-        label.setVerticalTextPosition(JLabel.TOP);  //Define a orintação vertical de acordo com a imageem do Icone;
+        label.setHorizontalTextPosition(JLabel.CENTER); // Define a orientação horizontal do texto do label de acordo com a imageem do Icone;
+        label.setVerticalTextPosition(JLabel.TOP);  //Define a orintação vertical do texto de acordo com a imageem do Icone;
         label.setForeground(Color.ORANGE); //Define a cor de fonte do label, também é possivel escolher uma cor pelo código RGB ou HEX;
         label.setFont(new Font("Arial",Font.BOLD,28)); //Define a fonte, a estilização da fonte, e o tamanho da fonte do label;
         label.setBackground(Color.BLACK); //Define a cor de fundo do label;
         label.setOpaque(true); //Define se o label é opaco ou não, necessário para que a cor do background apareça;
         label.setBorder(borda); //Define qual a borda do label
+        label.setHorizontalAlignment(JLabel.CENTER); //Define a posição do label;
     }
 }
