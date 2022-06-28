@@ -10,7 +10,7 @@
 <body>
     <header class="header">
         <div class="header-img">
-            <img height=100px, src="/assets/foto.png">
+            <img id="header-img" src="/assets/foto.png">
         </div>
         <div class="nav-bar">
             <ul>
@@ -21,13 +21,18 @@
         </div>
     </header>
     <main>
-        <form id="form" action="https://www.freecodecamp.com/email-submit">
-            <input id="email" placeholder="email" type="email">
-            <input id="submit" type="submit">
-        </form>
-        <div id="video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" title="Roman Carnival Overture Op. 9 for Five Trombones" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            
-        </div>
+        <section id="conteudo">
+            <article id="email-submit">
+                <h3>Insira seu email para receber atualizações</h3>
+                <form id="form" action="https://www.freecodecamp.com/email-submit">
+                    <input id="email" placeholder="Insira o seu E-mail" type="email">
+                    <input id="submit" type="submit" value="Receba Atualizações!">
+                </form>
+            </article>
+            <article id="video-container">
+                <iframe id="video"width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" title="Roman Carnival Overture Op. 9 for Five Trombones" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            
+            </article>
+         </section>
     </main>
 </body>
 </html>
