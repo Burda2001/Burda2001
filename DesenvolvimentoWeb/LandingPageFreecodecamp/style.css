@@ -10,6 +10,8 @@ header{
     justify-content: flex-end;
     margin: 0px 20px 0px 20px;
     align-items: center;
+    width: 100%;
+    height: 100%;
 }
 #header-img{
     width: 25%;
@@ -32,15 +34,20 @@ li a{
     padding: 8px 15px 8px 15px;
     border: 2px solid rgb(156, 156, 156);
     border-radius: 3px;
+    width: 100%;
+    height: 100%;
+    margin: 3px;
 }
 li a:hover{
     color: white;
     background-color: rgb(156, 156, 156);
 
 }
-#email-submit h3::before{
-    border-top: 1px black;
+.nav-bar{
+    margin-right: auto;
+    
 }
+
 #email-submit h3{
     font-size: 25px;
     margin: 10px;
@@ -81,6 +88,7 @@ li a:hover{
     cursor: pointer;
     font-size: 13px;
     transition: 0.3s;
+    margin-bottom: 10px;
 }
 
 #form #submit:hover{
@@ -91,14 +99,93 @@ li a:hover{
     box-shadow: 8px 8px 20px black;
 
 }
+
+
 #video-container{
-    width: 40%;
-    margin: auto;
+    display: flex;
+    justify-content: center;
 }
-#video{
-    display:block; 
-    margin:30px auto 20px auto;
-    width: 100%;
-    height: 100%;
+#pacotes{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+.texto-pacotes{
+    text-align: center;
+}
+#pacote-encantos{
+    border-top: 2px solid grey;
+    margin: 5px;
+    cursor: pointer;
+}
+#pacote-superencantos{
+    border-top: 2px solid grey;
+    margin: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+#img-pacotes{
+    height: 400px;
+    transition: 0.5s;
+}
+#img-pacotes:hover{
+    height: 800px;
+    transition: 0.5s;
+}
+#btn-encantos{
+    display: block;
+    margin: 0 auto;
+    font-size: 14px;
+    width: 140px;  
+    height: 20px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;  
+    background-color: rgb(224, 224, 224);
+    border-radius: 3px;
+    border: 2px solid rgb(111, 179, 216);
+    color: rgb(111, 179, 216);
+    padding: 5px;
+    transition: 0.4s;
+}
+#btn-superencantos{
+    display: block;
+    margin: 0 auto;
+    font-size: 14px;
+    width: 140px;  
+    height: 20px;
+    text-decoration: none;
+    text-transform: uppercase;  
+    background-color: rgb(224, 224, 224);
+    border-radius: 3px;
+    color: rgb(185, 131, 236);
+    border: 2px solid rgb(185, 131, 236);
+    padding: 5px;
+    transition: 0.4s;
+
+}
+#btn-encantos:hover{
+    box-shadow: 8px 8px 50px 08px rgb(111, 179, 216);
+    transition: 0.4s;
+
+}
+#btn-superencantos:hover{
+    box-shadow: 8px 8px 50px 08px rgb(185, 131, 236);
+    transition: 0.4s;
 }
 
+#txt-ampliar{
+    text-align: center;
+    font-weight: 100;
+    margin: 0px;
+    font-size: 12px;
+}
+
+#espaço-container{
+    background-color: darkgrey;
+    display: grid;
+}
+.img-espaço{
+    width: 400px;
+    height: 300px;
+}
