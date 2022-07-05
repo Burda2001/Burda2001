@@ -20,36 +20,38 @@ header{
 .header-img{
     margin-right: auto;
 }
+
 .nav-bar ul{
     display: flex;
 }
 ul{
     list-style-type: none;
     padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
-
-li a{
+.nav-bar{
+    margin-right: 20px;
+    position: fixed;
+}
+.nav-bar li a{
     text-decoration: none;
     color: black;
     font-size: 20px;
     box-sizing: border-box;
-    padding: 8px 15px 8px 15px;
+    padding: 4px 8px 4px 8px;
     border: 2px solid rgb(156, 156, 156);
+    background-color: lightgrey;
     border-radius: 3px;
     width: 100%;
     height: 100%;
     margin: 3px;
+    cursor: pointer;
 }
-li a:hover{
+.nav-bar li a:hover{
     color: white;
     background-color: rgb(156, 156, 156);
-
 }
-.nav-bar{
-    margin-right: auto;
-    
-}
-
 #email-submit h3{
     font-size: 25px;
     margin: 10px;
@@ -195,7 +197,7 @@ color:rgb(111, 179, 216);
 #img1{
     grid-area: principal;
     width: 405px;
-    border: 2px solid darkgrey;
+    border: 2px solid rgb(111, 179, 216);
     height: 250px;
     border-radius: 3px;
     transition: 0,5s;
@@ -204,18 +206,34 @@ color:rgb(111, 179, 216);
 
 #img2{
     border-radius: 3px;
-    border: 2px solid darkgrey;
+    border: 2px solid rgb(111, 179, 216);
     grid-area: segunda;
 }
 
 #img3{
     border-radius: 3px;
     grid-area: terceira, segunda, terceira;
-    border: 2px solid darkgrey;
+    border: 2px solid rgb(111, 179, 216);
 }
 #a-espaço{
     grid-area:anchor;
     text-align: center;
+    border: solid 1px black;
+    background-color: lightgrey;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    width: 280px;
+    transition: 0.4s;
+    justify-self: center;
+}
+#a-espaço:hover{
+    background-color: rgb(198, 196, 196);
+    border: solid 2px black;
+    box-shadow: 2px 2px 20px black;
+    width: 350px;
+    font-size: 20px;
+    transition: 0.6s;
 }
 #txt-espaço{
     grid-area: texto;
@@ -249,26 +267,71 @@ color:rgb(111, 179, 216);
 }
 
 #footer-container{
-    border-top:2px solid black;
-    background-color: darkgrey;
+    background-color: rgb(252, 215, 220);
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
-#redes-sociais{
-    margin-right: 20px;
-    width: 200px;   
-    text-align: left; 
+#footer-container h3{
+    text-align: center;
 }
-#redes-sociais img{ 
+#footer-container a:hover{
+    text-decoration: none;
+    background-color: pink;
+    color: black;
+    border-radius: 3px;
+    transition: 0.4s;
+}
+#redes-sociais{
+    width: auto;   
+    text-align: left; 
+    align-items: end;
+    padding-right: 10px;
+}
+#redes-sociais a img{ 
     width: 30px;
+    position: relative;
+    top: 10px;
+
 }
 #redes-sociais a{
     text-decoration: none;
+    color: black;
+    transition: 0.4s;
+    display: block;
+}
+#redes-sociais a:hover{
+    text-decoration: none;
+    background-color: pink;
+    color: black;
+    border-radius: 3px;
+    transition: 0.4s;
 }
 #contato-footer{
     width: 200px;
 }
+#contato-footer a img{
+    width: 30px;
+    position: relative;
+    top: 8px;
+}
+#contato-footer a{
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
 #endereço-footer{
     width: 200px;
+}
+#serviços-footer li{
+    margin: 5px;
+}
+#serviços-footer a{
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+}
+#endereço-footer{
+
 }
