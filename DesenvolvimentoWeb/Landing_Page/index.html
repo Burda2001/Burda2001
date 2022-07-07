@@ -31,7 +31,12 @@
                    <h2 class="texto-pacotes">Pacote Encantos</h2>
                    <img id="img-pacotes" alt="imagem pacote encantos" src="assets/encantos.jpeg">
                    <a href="https://api.whatsapp.com/send?phone=554198872091&text=Tenho%20interessee%20nos%20pacotes!" target="_blank" id="btn-encantos">Tenho interesse</a>
-
+                <div id="range"> 
+                   <p>Selecione o número de convidados</p>
+                   <label for="number">Convidados</label>
+                   <input id="num-convidados" value="50" type="number" min="30" max="100">
+                   <p id="valor-pacote-encantos"></p>
+                </div>
                 </div>
                 <div id="pacote-superencantos">
                     <h2 color= class="texto-pacotes">Pacote Super Encantos</h2>
@@ -59,9 +64,8 @@
                 </form>
             </article>
          </section>
-
+         <script src="script.js"></script>
     </main>
-    <script src="script.js"></script>
 </body>
 <footer class="footer">    
     <div id="footer-container">
